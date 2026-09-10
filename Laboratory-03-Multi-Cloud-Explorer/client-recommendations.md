@@ -67,3 +67,21 @@ I recommend AWS for the global e-commerce company because it provides services t
 | **B. University – Microsoft Environment** | Microsoft Azure            | Strong Microsoft integration                 |
 | **C. AI Research Laboratory**             | Google Cloud               | Strong AI, data, and Kubernetes capabilities |
 | **D. Global E-Commerce Company**          | AWS                        | Scalability and global infrastructure        |
+
+
+## Cloud Decision Matrix
+
+The following decision matrix compares AWS, Microsoft Azure, and Google Cloud based on common organizational requirements.
+
+| Requirement                 | AWS                                                 | Microsoft Azure                                   | Google Cloud                                      | Recommended Provider |
+| --------------------------- | --------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | -------------------- |
+| **Startup Company**         | Excellent scalability and wide service selection    | Good scalability and services                     | Good scalability and developer tools              | **AWS**              |
+| **Enterprise Organization** | Excellent service variety and global infrastructure | Excellent enterprise and hybrid cloud integration | Excellent data and cloud-native services          | **AWS**              |
+| **Microsoft Environment**   | Good Microsoft support                              | Excellent Microsoft integration                   | Good Microsoft workload support                   | **Microsoft Azure**  |
+| **AI/ML**                   | Strong AI and machine learning services             | Strong AI and machine learning services           | Excellent AI, ML, and data analytics capabilities | **Google Cloud**     |
+| **Kubernetes Deployment**   | Excellent with Amazon EKS                           | Excellent with Azure AKS                          | Excellent with Google GKE                         | **Google Cloud**     |
+| **Global Web Application**  | Excellent global infrastructure and services        | Excellent global infrastructure                   | Excellent global network                          | **AWS**              |
+
+### Decision Matrix Explanation
+
+The decision matrix shows that there is no single cloud provider that is best for every situation. AWS is a strong general-purpose choice because of its wide range of services and global infrastructure. Microsoft Azure is particularly suitable for organizations that already depend heavily on Microsoft technologies. Google Cloud is a strong choice for artificial intelligence, machine learning, data analytics, and Kubernetes workloads.
