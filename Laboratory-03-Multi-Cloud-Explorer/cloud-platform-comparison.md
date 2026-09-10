@@ -37,3 +37,22 @@ I would personally choose AWS because it provides a wide range of cloud services
 * Google Cloud: https://cloud.google.com/
 * Google Cloud Products: https://cloud.google.com/products
 * Google Kubernetes Engine: https://cloud.google.com/kubernetes-engine
+
+
+## Service Equivalence Table
+
+The following table shows equivalent services across AWS, Microsoft Azure, and Google Cloud Platform.
+
+| Cloud Service Category  | AWS                                     | Microsoft Azure                | Google Cloud                   |
+| ----------------------- | --------------------------------------- | ------------------------------ | ------------------------------ |
+| **Virtual Machine**     | Amazon EC2                              | Azure Virtual Machines         | Google Compute Engine          |
+| **Object Storage**      | Amazon S3                               | Azure Blob Storage             | Google Cloud Storage           |
+| **Identity Management** | AWS IAM                                 | Microsoft Entra ID             | Google Cloud IAM               |
+| **SQL Database**        | Amazon RDS                              | Azure SQL Database             | Cloud SQL                      |
+| **Kubernetes**          | Amazon Elastic Kubernetes Service (EKS) | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
+
+### Service Equivalence Explanation
+
+Although the cloud providers use different names for their services, many of them provide similar functions. For example, Amazon EC2, Azure Virtual Machines, and Google Compute Engine all provide virtual machines for running applications and workloads. Similarly, Amazon S3, Azure Blob Storage, and Google Cloud Storage provide object storage, while EKS, AKS, and GKE provide managed Kubernetes services.
+
+Understanding these equivalent services makes it easier to compare cloud providers and select the platform that best matches an organization's requirements.
