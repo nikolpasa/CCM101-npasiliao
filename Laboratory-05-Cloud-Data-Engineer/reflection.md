@@ -1,0 +1,11 @@
+# Mission Reflection: The Cloud Data Engineer
+
+In this laboratory activity, I learned about the different types of cloud storage and how object storage can help applications manage large amounts of data. I learned that object storage is better suited for storing millions of photos because it stores each file as an object with its own data, metadata, and unique identifier. Unlike a traditional block storage drive, object storage is designed to manage large amounts of unstructured data and can scale as the number of photos increases. It is useful for photo-sharing applications because images can be stored separately from the application server.
+
+Using Docker made deploying the MinIO storage server easier because I could configure and run the service inside a container using a command. Docker also allowed me to map ports 9000 and 9001 so that the storage API and web console could be accessed separately. Environment variables helped configure the administrator username and password. Although I encountered problems accessing the web console, troubleshooting helped me understand that a running container does not always mean that every service inside it is working correctly.
+
+A bucket is a container used to organize and store objects in an object storage system. For example, the `client-photos` bucket can hold image files uploaded by users of a photo-sharing application. Buckets help organize data and make it easier for applications to manage stored objects.
+
+Large enterprise companies can protect their object storage data by keeping multiple copies of files across different disks, servers, or geographic locations. They can also use replication, erasure coding, regular backups, and monitoring to reduce the risk of data loss. These methods help maintain data availability even if a physical server fails.
+
+Finally, this activity helped me improve my confidence in using the Linux command line. I practiced navigating directories, checking files, running Docker commands, inspecting containers, and reading logs. I also learned that errors are part of technical work and should be investigated carefully. I still need more practice, but I am becoming more comfortable troubleshooting problems and documenting my work. This experience encourages me to continue learning cloud computing and system administration.
