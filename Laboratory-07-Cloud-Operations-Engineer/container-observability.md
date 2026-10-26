@@ -35,3 +35,37 @@ The logs were used to examine the HTTP requests generated during the traffic sim
 ### 3. Importance of Application Logs
 
 Application logs are important for troubleshooting because they record requests, errors, and activities that occur within an application. They help cloud operations engineers identify the cause of problems and determine which parts of the application need attention.
+## Checkpoint 5 – Real-Time Container Metrics
+
+### 1. Container Resource Monitoring
+
+**Command Executed:**
+
+`docker stats`
+
+I used the `docker stats` command to monitor the real-time performance of the Nginx web server container named `client-website`.
+
+### 2. Container Performance Results
+
+| Metric | Recorded Value |
+|---|---|
+| Container Name | client-website |
+| CPU Usage | [Enter actual CPU %] |
+| Memory Usage | [Enter actual MiB] |
+| Memory Limit | [Enter actual value] |
+| Memory Percentage | [Enter actual %] |
+| Network I/O | [Enter actual values] |
+
+### 3. Observation
+
+The `docker stats` command displayed the CPU and memory resources consumed by the Nginx container. By examining these metrics, I was able to observe the container's resource consumption and understand how Docker helps monitor application performance.
+
+### 4. Importance of Container Monitoring
+
+Monitoring container resources is important because it helps cloud operations engineers identify high CPU usage, excessive memory consumption, and possible performance issues.
+
+By regularly checking these metrics, engineers can detect potential resource problems before they affect application availability.
+
+### 5. Screenshot Evidence
+
+[Container Metrics Screenshot](screenshots/container-metrics.png)
