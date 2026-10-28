@@ -1,8 +1,8 @@
 #!/bin/bash
 # Automated Backup Script for CloudNova Technologies
 
-SOURCE_DIR="app-data"
-BACKUP_DIR="backups"
+SOURCE_DIR="/root/app-data"
+BACKUP_DIR="/root/backups"
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 
 echo "Initiating automated backup..."
